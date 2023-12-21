@@ -1,0 +1,21 @@
+common.insert_contact_us_form_details:
+  path: "common/api/insert-contact-us-form-details"
+  defaults:
+    _controller: '\Drupal\common\Controller\CustomAPIController::_insert_contact_us_form_details'
+    _title: "Contact us form details"
+  methods: [POST]
+  requirements:
+    _access: "TRUE"
+  options:
+    no_cache: "TRUE"
+
+common.search:
+  path: "common/api/search"
+  defaults:
+    _controller: '\Drupal\common\Controller\CustomSearchAPIControlle::_search'
+    _title: "Search API"
+  methods: [POST]
+  requirements:
+    _permission: "access content"
+  options:
+    no_cache: "TRUE"

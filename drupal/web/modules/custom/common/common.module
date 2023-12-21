@@ -1,0 +1,11 @@
+<?php
+
+    /**
+    * Custom variable set for authToken.
+    * To get authToken example.
+    * $authToken = \Drupal::config('doctor_day_custom.settings')->get('authToken');
+    */
+    \Drupal::service('config.factory')
+    ->getEditable('common.settings')
+    ->set('authToken', 'ATBBeqhGrBxMXvSbHEV3h9CRNvEgF57FBB90')
+    ->save();

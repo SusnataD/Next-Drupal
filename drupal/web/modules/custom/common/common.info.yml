@@ -1,0 +1,6 @@
+name: Common module
+type: module
+description: "Common function and POST API"
+package: Custom
+version: 1.x
+core_version_requirement: ^9 || ^10
